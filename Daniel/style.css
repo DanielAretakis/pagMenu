@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Inknut Antiqua", serif;
+}
+
+body{
+    background-color: #075666;
+    display: grid;
+    margin: 2rem;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 1rem;
+    color: white;
+}
+
+header img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+main{
+    display: grid;
+    text-align: center;
+    gap: 3rem;
+}
+
+main a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 3rem;
+}
